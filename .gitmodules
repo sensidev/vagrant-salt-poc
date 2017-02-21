@@ -1,0 +1,3 @@
+[submodule "saltstack-formulas-node"]
+	path = vagrant/salt/formulas/node-formula
+	url = git@github.com:saltstack-formulas/node-formula

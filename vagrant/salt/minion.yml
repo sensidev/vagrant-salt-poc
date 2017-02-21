@@ -1,0 +1,7 @@
+master: localhost
+file_client: local
+
+file_roots:
+    base:
+      - /srv/salt/formulas/node-formula
+      - /srv/salt/states
