@@ -1,7 +1,8 @@
 base:
   '*':
       - base
-      - postgresql
+      - postgres.upstream
+      - postgres
       - nginx
       - redis
       - node

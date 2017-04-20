@@ -1,3 +1,9 @@
 [submodule "saltstack-formulas-node"]
 	path = vagrant/salt/formulas/node-formula
 	url = git@github.com:saltstack-formulas/node-formula
+[submodule "vagrant/salt/formulas/redis-formula"]
+	path = vagrant/salt/formulas/redis-formula
+	url = git@github.com:saltstack-formulas/redis-formula.git
+[submodule "vagrant/salt/formulas/postgres-formula"]
+	path = vagrant/salt/formulas/postgres-formula
+	url = git@github.com:saltstack-formulas/postgres-formula.git
