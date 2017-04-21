@@ -1,6 +1,5 @@
 master: localhost
 file_client: local
-pillarenv: dev
 
 file_roots:
   base:

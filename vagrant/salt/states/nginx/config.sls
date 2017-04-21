@@ -9,7 +9,7 @@ nginx_default_conf:
 
 nginx_conf:
   file.managed:
-    - name: /etc/nginx/conf.d/{{ pillar['hostname'] }}.conf
+    - name: /etc/nginx/conf.d/vagrant.conf
     - template: jinja
     - source: salt://nginx/templates/project.conf.jinja
     - watch_in:

@@ -1,9 +1,9 @@
-dev:
+base:
   '*':
     - common
+
+  'dev':
     - dev
 
-prod:
-  '*':
-    - common
+  'prod':
     - prod
