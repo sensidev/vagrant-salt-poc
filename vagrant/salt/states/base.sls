@@ -1,11 +1,11 @@
 core:
   pkg.installed:
     - pkgs:
-      - python-dev
       - build-essential
       - vim
       - git
-      - tcl
+      - python-dev
+      - python-pip
       - python3
       - python3-pip
       - virtualenvwrapper

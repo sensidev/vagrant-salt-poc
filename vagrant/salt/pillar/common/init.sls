@@ -1,0 +1,4 @@
+common:
+  - node
+  - postgres
+  - redis

@@ -40,6 +40,7 @@ Vagrant.configure(2) do |config|
   config.vm.synced_folder "salt/states/", "/srv/salt/states/"
   config.vm.synced_folder "salt/formulas/", "/srv/salt/formulas/"
   config.vm.synced_folder "salt/pillar/", "/srv/pillar/"
+  config.vm.synced_folder "../clone/", "/home/vagrant/clone/"
 
 
   # Provider-specific configuration so you can fine-tune various

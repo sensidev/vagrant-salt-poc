@@ -1,9 +1,10 @@
 master: localhost
 file_client: local
+pillarenv: dev
 
 file_roots:
-    base:
-      - /srv/salt/formulas/node-formula
-      - /srv/salt/formulas/redis-formula
-      - /srv/salt/formulas/postgres-formula
-      - /srv/salt/states
+  base:
+    - /srv/salt/formulas/node-formula
+    - /srv/salt/formulas/redis-formula
+    - /srv/salt/formulas/postgres-formula
+    - /srv/salt/states

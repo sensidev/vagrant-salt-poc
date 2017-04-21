@@ -1,7 +1,9 @@
 base:
   '*':
-      - base
-      - postgres
-      - nginx
-      - redis
-      - node
+    - base
+    - postgres
+    - nginx
+    - redis
+    - node
+    - project
+    - pip

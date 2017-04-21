@@ -1,6 +1,9 @@
-base:
-    '*':
-        - nginx
-        - node
-        - redis
-        - postgres
+dev:
+  '*':
+    - common
+    - dev
+
+prod:
+  '*':
+    - common
+    - prod
