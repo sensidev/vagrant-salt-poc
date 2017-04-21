@@ -1,3 +1,3 @@
 dev:
-  - dev.nginx
-  - dev.postgres
+  - .nginx
+  - .postgres

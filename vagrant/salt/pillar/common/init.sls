@@ -1,4 +1,4 @@
 common:
-  - common.node
-  - common.postgres
-  - common.redis
+  - .node
+  - .postgres
+  - .redis

@@ -1,2 +1,2 @@
 prod:
-  - prod.nginx
+  - .nginx
