@@ -1,9 +1,12 @@
 base:
   '*':
-    - common
+    - common.node
+    - common.postgres
+    - common.redis
 
   'dev':
-    - dev
+    - dev.nginx
+    - dev.postgres
 
   'prod':
-    - prod
+    - prod.nginx

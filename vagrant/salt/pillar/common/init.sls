@@ -1,4 +1,0 @@
-common:
-  - .node
-  - .postgres
-  - .redis

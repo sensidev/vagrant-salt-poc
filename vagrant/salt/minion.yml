@@ -6,4 +6,4 @@ file_roots:
     - /srv/salt/formulas/node-formula
     - /srv/salt/formulas/redis-formula
     - /srv/salt/formulas/postgres-formula
-    - /srv/salt/states
+    - /srv/salt/states/
